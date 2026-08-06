@@ -1,0 +1,3 @@
+* text=auto eol=lf
+
+.vscode/*.json -linguist-detectable linguist-language=JSON-with-Comments
