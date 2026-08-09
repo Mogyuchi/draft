@@ -14,5 +14,13 @@
 		"@astrojs/starlight-markdoc": "^0.7.0",
 		"astro": "^7.2.0",
 		"sharp": "^0.35.3"
+	},
+	"devDependencies": {},
+	"devEngines": {
+		"runtime": {
+			"name": "node",
+			"version": "24.19.0",
+			"onFail": "download"
+		}
 	}
 }
