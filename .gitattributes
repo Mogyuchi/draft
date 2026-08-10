@@ -1,4 +1,6 @@
 * text=auto eol=lf
 
+/.husky/install.mjs linguist-vendored
+
 .vscode/*.json -linguist-detectable linguist-language=JSON-with-Comments
 *.mdoc -linguist-documentation linguist-detectable linguist-language=Markdown

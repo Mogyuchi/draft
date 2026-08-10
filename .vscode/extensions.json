@@ -2,7 +2,8 @@
 	"recommendations": [
 		"astro-build.astro-vscode",
 		"stripe.markdoc-language-support",
-		"editorconfig.editorconfig"
+		"editorconfig.editorconfig",
+		"oxc.oxc-vscode"
 	],
 	"unwantedRecommendations": []
 }

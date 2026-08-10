@@ -6,7 +6,11 @@
 		"start": "astro dev",
 		"build": "astro build",
 		"preview": "astro preview",
-		"astro": "astro"
+		"astro": "astro",
+		"fmt": "pnpm run fmt:fix",
+		"fmt:check": "oxfmt --disable-nested-config --check",
+		"fmt:fix": "oxfmt --disable-nested-config --write",
+		"prepare": "node .husky/install.mjs"
 	},
 	"dependencies": {
 		"@astrojs/markdoc": "^2.0.6",
@@ -15,12 +19,17 @@
 		"astro": "^7.2.0",
 		"sharp": "^0.35.3"
 	},
-	"devDependencies": {},
+	"devDependencies": {
+		"husky": "^9.1.7",
+		"lint-staged": "^17.3.0",
+		"oxfmt": "^0.62.0"
+	},
 	"devEngines": {
 		"runtime": {
 			"name": "node",
 			"version": "24.19.0",
 			"onFail": "download"
 		}
-	}
+	},
+	"packageManager": "pnpm@11.21.0+sha512.521705bce689924eac72f5a3587122f362689ef6571e55ba80076fd637c11132ecffada26fad4ea79c485bfddbfd3d5a2a5b05805a77e893de71ec8a6cca3bb1"
 }
