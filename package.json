@@ -10,6 +10,9 @@
 		"fmt": "pnpm run fmt:fix",
 		"fmt:check": "oxfmt --disable-nested-config --check",
 		"fmt:fix": "oxfmt --disable-nested-config --write",
+		"lint": "pnpm run lint:check",
+		"lint:check": "astro sync && oxlint --disable-nested-config",
+		"lint:fix": "astro sync && oxlint --disable-nested-config --fix",
 		"prepare": "node .husky/install.mjs"
 	},
 	"dependencies": {
@@ -22,7 +25,10 @@
 	"devDependencies": {
 		"husky": "^9.1.7",
 		"lint-staged": "^17.3.0",
-		"oxfmt": "^0.62.0"
+		"oxfmt": "^0.62.0",
+		"oxlint": "^1.77.0",
+		"oxlint-tsgolint": "^7.0.2001",
+		"typescript": "^7.0.2"
 	},
 	"devEngines": {
 		"runtime": {

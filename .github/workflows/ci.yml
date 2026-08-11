@@ -19,6 +19,6 @@ jobs:
         with:
           cache: true
 
-      - run: pnpm run --aggregate-output "/.*:check$/"
+      - run: pnpm run --aggregate-output --reporter-hide-prefix "/.*:check$/"
         env:
           FORCE_COLOR: 3
