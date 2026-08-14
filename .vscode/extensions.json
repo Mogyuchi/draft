@@ -3,7 +3,8 @@
 		"astro-build.astro-vscode",
 		"stripe.markdoc-language-support",
 		"editorconfig.editorconfig",
-		"oxc.oxc-vscode"
+		"oxc.oxc-vscode",
+		"3w36zj6.textlint"
 	],
 	"unwantedRecommendations": []
 }

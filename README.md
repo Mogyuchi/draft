@@ -45,6 +45,10 @@ All commands are run from the root of the project, from a terminal:
 | `pnpm astro ...`       | Run CLI commands like `astro add`, `astro check` |
 | `pnpm astro -- --help` | Get help using the Astro CLI                     |
 
+<!-- textlint-disable ja-technical-writing/no-exclamation-question-mark -->
+
 ## 👀 Want to learn more?
+
+<!-- textlint-enable -->
 
 Check out [Starlight’s docs](https://starlight.astro.build/), read [the Astro documentation](https://docs.astro.build), or jump into the [Astro Discord server](https://astro.build/chat).

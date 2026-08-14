@@ -28,7 +28,7 @@ export default defineConfig({
 
 	overrides: [
 		{
-			files: ['**/*.config.{js,mjs,cjs,ts,mts,cts}'],
+			files: ['**/*.config.{js,mjs,cjs,ts,mts,cts}', '.textlintrc.cjs'],
 			rules: {
 				'sort-keys': 'off',
 			},
