@@ -19,25 +19,25 @@
 		"prepare": "node .husky/install.mjs"
 	},
 	"dependencies": {
-		"@astrojs/markdoc": "^2.0.6",
-		"@astrojs/starlight": "^0.41.7",
-		"@astrojs/starlight-markdoc": "^0.7.0",
-		"astro": "^7.2.0",
-		"sharp": "^0.35.3"
+		"@astrojs/markdoc": "2.0.6",
+		"@astrojs/starlight": "0.41.7",
+		"@astrojs/starlight-markdoc": "0.7.0",
+		"astro": "7.2.0",
+		"sharp": "0.35.3"
 	},
 	"devDependencies": {
-		"husky": "^9.1.7",
-		"lint-staged": "^17.3.0",
-		"oxfmt": "^0.62.0",
-		"oxlint": "^1.77.0",
-		"oxlint-tsgolint": "^7.0.2001",
-		"textlint": "^15.8.0",
-		"textlint-filter-rule-comments": "^1.3.0",
-		"textlint-filter-rule-ja-named-entities": "^1.0.3",
-		"textlint-rule-no-kangxi-radicals": "^0.2.2",
-		"textlint-rule-preset-ja-technical-writing": "^12.0.2",
-		"textlint-rule-preset-jtf-style": "^3.0.3",
-		"typescript": "^7.0.2"
+		"husky": "9.1.7",
+		"lint-staged": "17.3.0",
+		"oxfmt": "0.62.0",
+		"oxlint": "1.77.0",
+		"oxlint-tsgolint": "7.0.2001",
+		"textlint": "15.8.0",
+		"textlint-filter-rule-comments": "1.3.0",
+		"textlint-filter-rule-ja-named-entities": "1.0.3",
+		"textlint-rule-no-kangxi-radicals": "0.2.2",
+		"textlint-rule-preset-ja-technical-writing": "12.0.2",
+		"textlint-rule-preset-jtf-style": "3.0.3",
+		"typescript": "7.0.2"
 	},
 	"devEngines": {
 		"runtime": {
