@@ -22,7 +22,7 @@
 		"@astrojs/markdoc": "2.0.6",
 		"@astrojs/starlight": "0.41.7",
 		"@astrojs/starlight-markdoc": "0.7.0",
-		"astro": "7.2.1",
+		"astro": "7.2.2",
 		"sharp": "0.35.3"
 	},
 	"devDependencies": {
