@@ -1,3 +1,10 @@
+savePrefix: '='
+strictPeerDependencies: true
+
+shellEmulator: true
+
+updateNotifier: false
+
 allowBuilds:
   esbuild: true
   sharp: true
